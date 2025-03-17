@@ -2,6 +2,8 @@
 #     Test Insertion Sort 
 #      Organize an array
 # ==============================
+# What is Insertion Sort?
+# Insertion sort is an algorithm that sorts a list in a method to check if the next item is greater or lesser. sorting the list one by one being your worst case Θ(n²).
 
 array : list[int] = [1,4,53,60,2,7,4,7]
 
