@@ -5,10 +5,8 @@
 
 def search_bin(arr: list[int], target: int) -> int:
     left, right = 0, len(arr) - 1
-    tentative = 0
 
     while left <= right:
-        print(tentative := tentative + 1)
         mid = (left + right) // 2
         if arr[mid] == target:
             return mid
